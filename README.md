@@ -2,7 +2,7 @@
 <a href="https://www.etsy.com/shop/DeebsKeebs">Etsy Shop</a>
 <a href="https://discord.gg/bxgbeNf">Discord Channel</a>
 
-Parts required for build: <br />
+Parts required for build:
   -Augio PCB
   -Optional switch plate
   -Case

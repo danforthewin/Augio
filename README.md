@@ -1,7 +1,6 @@
 <pre>
-Discord link: https://discord.gg/bxgbeNf
 <a href="www.etsy.com/shop/DeebsKeebs">Etsy Shop</a>
-Etsy Shop: www.etsy.com/shop/DeebsKeebs
+<a href="https://discord.gg/bxgbeNf">Discord Channel</a>
 
 Parts required for build: <br />
   -Augio PCB <br />

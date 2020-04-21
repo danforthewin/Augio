@@ -1,5 +1,6 @@
 <pre>
 Discord link: https://discord.gg/bxgbeNf
+<a href="www.etsy.com/shop/DeebsKeebs">Etsy Shop</a>
 Etsy Shop: www.etsy.com/shop/DeebsKeebs
 
 Parts required for build: <br />

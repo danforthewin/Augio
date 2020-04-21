@@ -1,5 +1,5 @@
 <pre>
-<a href="www.etsy.com/shop/DeebsKeebs">Etsy Shop</a>
+<a href="https://www.etsy.com/shop/DeebsKeebs">Etsy Shop</a>
 <a href="https://discord.gg/bxgbeNf">Discord Channel</a>
 
 Parts required for build: <br />

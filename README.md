@@ -1,4 +1,7 @@
 <pre>
+Discord link: https://discord.gg/bxgbeNf
+Etsy Shop: www.etsy.com/shop/DeebsKeebs
+
 Parts required for build: <br />
   -Augio PCB <br />
   -Optional switch plate <br />

@@ -3,13 +3,13 @@
 <a href="https://discord.gg/bxgbeNf">Discord Channel</a>
 
 Parts required for build: <br />
-  -Augio PCB <br />
-  -Optional switch plate <br />
-  -Case <br />
-  -63 diodes <br />
-  -63 switches <br />
-  -2u stabilizer <br />
-  -Pro micro <br />
+  -Augio PCB
+  -Optional switch plate
+  -Case
+  -63 diodes
+  -63 switches
+  -2u stabilizer
+  -Pro micro
 
 The firmware works for both the ortholinear and staggered version
 </pre>

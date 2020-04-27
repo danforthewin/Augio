@@ -17,7 +17,7 @@ The firmware works for both the ortholinear and staggered version
 ![alt text](https://i.imgur.com/Gur67JT.jpg)
 ![alt text](https://i.imgur.com/GuPMF7Y.jpg)
 ![alt text](https://i.imgur.com/j1mmju4.jpg)
-![alt text](https://i.imgur.com/xuGE01p.jpg)
+
 
 
 <pre>
@@ -25,3 +25,4 @@ The ortholinear version is reversible, if you prefer the numpad on the right sid
 </pre>
 
 ![alt text](https://i.imgur.com/PatkK3w.jpg)
+![alt text](https://i.imgur.com/xuGE01p.jpg)

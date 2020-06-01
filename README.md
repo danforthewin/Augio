@@ -5,7 +5,7 @@
 Parts required for build:
   -Augio PCB
   -Optional switch plate
-  -Case
+  -Case --either source a custom made case or send the case files to Ponoko or similar service
   -63 diodes
   -63 switches
   -2u stabilizer

@@ -26,3 +26,8 @@ The ortholinear version is reversible, if you prefer the numpad on the right sid
 
 ![alt text](https://i.imgur.com/PatkK3w.jpg)
 ![alt text](https://i.imgur.com/xuGE01p.jpg)
+
+![alt text](https://i.imgur.com/MO0eRQi.jpg)
+![alt text](https://i.imgur.com/IYrpj6l.jpg)
+
+

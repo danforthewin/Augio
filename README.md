@@ -12,6 +12,7 @@ Parts required for build:
   -Pro micro
 
 The firmware works for both the ortholinear and staggered version
+Note: The case files can be ordered from Ponoko.  There should be two open layers, and at least one closed layer in order to clear the USB and bottom of the PCB.
 </pre>
 
 ![alt text](https://i.imgur.com/Gur67JT.jpg)

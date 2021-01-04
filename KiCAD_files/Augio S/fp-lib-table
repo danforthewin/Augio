@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name random-keyboard-parts)(type KiCad)(uri C:/Users/Daniel/Documents/GitHub/Augio/random-keyboard-parts.pretty)(options "")(descr "")(disabled))
+  (lib (name keyboard_parts)(type KiCad)(uri C:/Users/Daniel/Documents/GitHub/Augio/keyboard_parts.pretty)(options "")(descr "")(disabled))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/Keebio-Parts.pretty-master)(options "")(descr ""))
+  (lib (name bitmaps)(type KiCad)(uri ${KIPRJMOD}/bitmaps.pretty)(options "")(descr ""))
+)

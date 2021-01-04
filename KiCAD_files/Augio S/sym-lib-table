@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name components)(type Legacy)(uri ${KIPRJMOD}/components.lib)(options "")(descr ""))
+  (lib (name generic_kbd-cache)(type Legacy)(uri ${KIPRJMOD}/generic_kbd-cache.lib)(options "")(descr ""))
+  (lib (name reviung39-rescue)(type Legacy)(uri ${KIPRJMOD}/reviung39-rescue.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+)

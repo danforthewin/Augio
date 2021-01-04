@@ -1,0 +1,8 @@
+(module Augio_drill_holes (layer F.Cu) (tedit 5EA8C29B)
+  (fp_text reference REF** (at 0 3.04) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Augio_drill_holes (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

@@ -1,0 +1,2042 @@
+EESchema Schematic File Version 4
+LIBS:Augio-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L generic_kbd-cache:ARDUINO_PRO_MICRO U1
+U 1 1 5DAC7450
+P 4700 6500
+F 0 "U1" H 4700 7547 60  0000 C CNN
+F 1 "ARDUINO_PRO_MICRO" H 4700 7441 60  0000 C CNN
+F 2 "footprints:ARDUINO_PRO_MICRO" H 4550 7000 60  0001 C CNN
+F 3 "" H 4550 7000 60  0000 C CNN
+	1    4700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW2
+U 1 1 5DC5F93C
+P 1960 1470
+F 0 "SW2" H 1960 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 1960 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1960 1470 60  0001 C CNN
+F 3 "" H 1960 1470 60  0000 C CNN
+	1    1960 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW3
+U 1 1 5DD00146
+P 2660 1470
+F 0 "SW3" H 2660 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 2660 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2660 1470 60  0001 C CNN
+F 3 "" H 2660 1470 60  0000 C CNN
+	1    2660 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW4
+U 1 1 5DD06510
+P 3360 1470
+F 0 "SW4" H 3360 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 3360 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3360 1470 60  0001 C CNN
+F 3 "" H 3360 1470 60  0000 C CNN
+	1    3360 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW5
+U 1 1 5DD06544
+P 4060 1470
+F 0 "SW5" H 4060 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 4060 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4060 1470 60  0001 C CNN
+F 3 "" H 4060 1470 60  0000 C CNN
+	1    4060 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW6
+U 1 1 5DD25756
+P 4760 1470
+F 0 "SW6" H 4760 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 4760 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4760 1470 60  0001 C CNN
+F 3 "" H 4760 1470 60  0000 C CNN
+	1    4760 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW7
+U 1 1 5DD2578A
+P 5460 1470
+F 0 "SW7" H 5460 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 5460 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5460 1470 60  0001 C CNN
+F 3 "" H 5460 1470 60  0000 C CNN
+	1    5460 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW8
+U 1 1 5DD257BE
+P 6160 1470
+F 0 "SW8" H 6160 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 6160 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6160 1470 60  0001 C CNN
+F 3 "" H 6160 1470 60  0000 C CNN
+	1    6160 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW9
+U 1 1 5DD257F2
+P 6860 1470
+F 0 "SW9" H 6860 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 6860 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6860 1470 60  0001 C CNN
+F 3 "" H 6860 1470 60  0000 C CNN
+	1    6860 1470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7160 1470 7160 950 
+Wire Wire Line
+	5760 1470 5760 950 
+Wire Wire Line
+	2960 1470 2960 950 
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW11
+U 1 1 5DDED33A
+P 8270 1470
+F 0 "SW11" H 8270 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 8270 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8270 1470 60  0001 C CNN
+F 3 "" H 8270 1470 60  0000 C CNN
+	1    8270 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW12
+U 1 1 5DDED347
+P 8970 1470
+F 0 "SW12" H 8970 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 8970 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8970 1470 60  0001 C CNN
+F 3 "" H 8970 1470 60  0000 C CNN
+	1    8970 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW13
+U 1 1 5DDED354
+P 9670 1470
+F 0 "SW13" H 9670 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 9670 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9670 1470 60  0001 C CNN
+F 3 "" H 9670 1470 60  0000 C CNN
+	1    9670 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW14
+U 1 1 5DDED361
+P 10370 1470
+F 0 "SW14" H 10370 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 10370 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10370 1470 60  0001 C CNN
+F 3 "" H 10370 1470 60  0000 C CNN
+	1    10370 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW15
+U 1 1 5DDED36E
+P 11070 1470
+F 0 "SW15" H 11070 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 11070 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11070 1470 60  0001 C CNN
+F 3 "" H 11070 1470 60  0000 C CNN
+	1    11070 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW16
+U 1 1 5DDED37B
+P 11770 1470
+F 0 "SW16" H 11770 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 11770 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11770 1470 60  0001 C CNN
+F 3 "" H 11770 1470 60  0000 C CNN
+	1    11770 1470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11370 1470 11370 950 
+Wire Wire Line
+	9970 1470 9970 950 
+Wire Wire Line
+	8570 1470 8570 950 
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW10
+U 1 1 5DDED32D
+P 7570 1470
+F 0 "SW10" H 7570 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 7570 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7570 1470 60  0001 C CNN
+F 3 "" H 7570 1470 60  0000 C CNN
+	1    7570 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW18
+U 1 1 5DFC455C
+P 1960 2460
+F 0 "SW18" H 1960 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 1960 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1960 2460 60  0001 C CNN
+F 3 "" H 1960 2460 60  0000 C CNN
+	1    1960 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5DFC4562
+P 1660 2630
+F 0 "D17" V 1706 2562 50  0000 R CNN
+F 1 "D_Small" V 1615 2562 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 1660 2630 50  0001 C CNN
+F 3 "~" V 1660 2630 50  0001 C CNN
+	1    1660 2630
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1660 2460 1660 2530
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW19
+U 1 1 5DFC4569
+P 2660 2460
+F 0 "SW19" H 2660 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 2660 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2660 2460 60  0001 C CNN
+F 3 "" H 2660 2460 60  0000 C CNN
+	1    2660 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 5DFC456F
+P 2360 2750
+F 0 "D26" V 2406 2682 50  0000 R CNN
+F 1 "D_Small" V 2315 2682 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2360 2750 50  0001 C CNN
+F 3 "~" V 2360 2750 50  0001 C CNN
+	1    2360 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW20
+U 1 1 5DFC4575
+P 3360 2460
+F 0 "SW20" H 3360 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 3360 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3360 2460 60  0001 C CNN
+F 3 "" H 3360 2460 60  0000 C CNN
+	1    3360 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5DFC457B
+P 3060 2630
+F 0 "D18" V 3106 2562 50  0000 R CNN
+F 1 "D_Small" V 3015 2562 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3060 2630 50  0001 C CNN
+F 3 "~" V 3060 2630 50  0001 C CNN
+	1    3060 2630
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3060 2460 3060 2530
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW21
+U 1 1 5DFC4582
+P 4060 2460
+F 0 "SW21" H 4060 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 4060 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4060 2460 60  0001 C CNN
+F 3 "" H 4060 2460 60  0000 C CNN
+	1    4060 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 5DFC4588
+P 3760 2750
+F 0 "D27" V 3806 2682 50  0000 R CNN
+F 1 "D_Small" V 3715 2682 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3760 2750 50  0001 C CNN
+F 3 "~" V 3760 2750 50  0001 C CNN
+	1    3760 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW22
+U 1 1 5DFC458E
+P 4760 2460
+F 0 "SW22" H 4760 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 4760 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4760 2460 60  0001 C CNN
+F 3 "" H 4760 2460 60  0000 C CNN
+	1    4760 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 5DFC4594
+P 4460 2630
+F 0 "D19" V 4506 2562 50  0000 R CNN
+F 1 "D_Small" V 4415 2562 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 4460 2630 50  0001 C CNN
+F 3 "~" V 4460 2630 50  0001 C CNN
+	1    4460 2630
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4460 2460 4460 2530
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW23
+U 1 1 5DFC459B
+P 5460 2460
+F 0 "SW23" H 5460 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 5460 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5460 2460 60  0001 C CNN
+F 3 "" H 5460 2460 60  0000 C CNN
+	1    5460 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 5DFC45A1
+P 5160 2750
+F 0 "D28" V 5206 2682 50  0000 R CNN
+F 1 "D_Small" V 5115 2682 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5160 2750 50  0001 C CNN
+F 3 "~" V 5160 2750 50  0001 C CNN
+	1    5160 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW24
+U 1 1 5DFC45A7
+P 6160 2460
+F 0 "SW24" H 6160 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 6160 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6160 2460 60  0001 C CNN
+F 3 "" H 6160 2460 60  0000 C CNN
+	1    6160 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5DFC45AD
+P 5860 2630
+F 0 "D20" V 5906 2562 50  0000 R CNN
+F 1 "D_Small" V 5815 2562 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5860 2630 50  0001 C CNN
+F 3 "~" V 5860 2630 50  0001 C CNN
+	1    5860 2630
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5860 2460 5860 2530
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW25
+U 1 1 5DFC45B4
+P 6860 2460
+F 0 "SW25" H 6860 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 6860 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6860 2460 60  0001 C CNN
+F 3 "" H 6860 2460 60  0000 C CNN
+	1    6860 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 5DFC45BA
+P 6560 2750
+F 0 "D29" V 6606 2682 50  0000 R CNN
+F 1 "D_Small" V 6515 2682 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 6560 2750 50  0001 C CNN
+F 3 "~" V 6560 2750 50  0001 C CNN
+	1    6560 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 5DFC45C8
+P 7270 2630
+F 0 "D21" V 7316 2562 50  0000 R CNN
+F 1 "D_Small" V 7225 2562 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 7270 2630 50  0001 C CNN
+F 3 "~" V 7270 2630 50  0001 C CNN
+	1    7270 2630
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW27
+U 1 1 5DFC45CE
+P 8270 2460
+F 0 "SW27" H 8270 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 8270 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8270 2460 60  0001 C CNN
+F 3 "" H 8270 2460 60  0000 C CNN
+	1    8270 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 5DFC45D4
+P 7970 2750
+F 0 "D30" V 8016 2682 50  0000 R CNN
+F 1 "D_Small" V 7925 2682 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 7970 2750 50  0001 C CNN
+F 3 "~" V 7970 2750 50  0001 C CNN
+	1    7970 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW28
+U 1 1 5DFC45DA
+P 8970 2460
+F 0 "SW28" H 8970 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 8970 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8970 2460 60  0001 C CNN
+F 3 "" H 8970 2460 60  0000 C CNN
+	1    8970 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 5DFC45E0
+P 8670 2630
+F 0 "D22" V 8716 2562 50  0000 R CNN
+F 1 "D_Small" V 8625 2562 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 8670 2630 50  0001 C CNN
+F 3 "~" V 8670 2630 50  0001 C CNN
+	1    8670 2630
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW29
+U 1 1 5DFC45E6
+P 9670 2460
+F 0 "SW29" H 9670 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 9670 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9670 2460 60  0001 C CNN
+F 3 "" H 9670 2460 60  0000 C CNN
+	1    9670 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 5DFC45EC
+P 9370 2750
+F 0 "D31" V 9416 2682 50  0000 R CNN
+F 1 "D_Small" V 9325 2682 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 9370 2750 50  0001 C CNN
+F 3 "~" V 9370 2750 50  0001 C CNN
+	1    9370 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW30
+U 1 1 5DFC45F2
+P 10370 2460
+F 0 "SW30" H 10370 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 10370 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10370 2460 60  0001 C CNN
+F 3 "" H 10370 2460 60  0000 C CNN
+	1    10370 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 5DFC45F8
+P 10070 2630
+F 0 "D23" V 10116 2562 50  0000 R CNN
+F 1 "D_Small" V 10025 2562 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 10070 2630 50  0001 C CNN
+F 3 "~" V 10070 2630 50  0001 C CNN
+	1    10070 2630
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10070 2460 10070 2530
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW31
+U 1 1 5DFC45FF
+P 11070 2460
+F 0 "SW31" H 11070 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 11070 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11070 2460 60  0001 C CNN
+F 3 "" H 11070 2460 60  0000 C CNN
+	1    11070 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 5DFC4605
+P 10770 2750
+F 0 "D32" V 10816 2682 50  0000 R CNN
+F 1 "D_Small" V 10725 2682 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 10770 2750 50  0001 C CNN
+F 3 "~" V 10770 2750 50  0001 C CNN
+	1    10770 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW32
+U 1 1 5DFC460B
+P 11770 2460
+F 0 "SW32" H 11770 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 11770 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11770 2460 60  0001 C CNN
+F 3 "" H 11770 2460 60  0000 C CNN
+	1    11770 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 5DFC4611
+P 11470 2630
+F 0 "D24" V 11516 2562 50  0000 R CNN
+F 1 "D_Small" V 11425 2562 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 11470 2630 50  0001 C CNN
+F 3 "~" V 11470 2630 50  0001 C CNN
+	1    11470 2630
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11470 2460 11470 2530
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW26
+U 1 1 5DFC461F
+P 7570 2460
+F 0 "SW26" H 7570 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 7570 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7570 2460 60  0001 C CNN
+F 3 "" H 7570 2460 60  0000 C CNN
+	1    7570 2460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8670 2460 8670 2530
+Wire Wire Line
+	7270 2460 7270 2530
+Wire Wire Line
+	11470 2730 10070 2730
+Connection ~ 1660 2730
+Connection ~ 3060 2730
+Wire Wire Line
+	3060 2730 1660 2730
+Connection ~ 4460 2730
+Wire Wire Line
+	4460 2730 3060 2730
+Connection ~ 5860 2730
+Wire Wire Line
+	5860 2730 4460 2730
+Connection ~ 7270 2730
+Wire Wire Line
+	7270 2730 5860 2730
+Connection ~ 8670 2730
+Wire Wire Line
+	8670 2730 7270 2730
+Connection ~ 10070 2730
+Wire Wire Line
+	10070 2730 8670 2730
+Connection ~ 2360 2850
+Connection ~ 3760 2850
+Wire Wire Line
+	3760 2850 2360 2850
+Connection ~ 5160 2850
+Wire Wire Line
+	5160 2850 3760 2850
+Connection ~ 6560 2850
+Wire Wire Line
+	6560 2850 5160 2850
+Wire Wire Line
+	10770 2850 9370 2850
+Connection ~ 9370 2850
+Wire Wire Line
+	2360 2650 2360 2460
+Wire Wire Line
+	3760 2650 3760 2460
+Wire Wire Line
+	5160 2650 5160 2460
+Wire Wire Line
+	6560 2460 6560 2650
+Wire Wire Line
+	6560 2850 7970 2850
+Connection ~ 7970 2850
+Wire Wire Line
+	7970 2850 9370 2850
+Wire Wire Line
+	7970 2460 7970 2650
+Wire Wire Line
+	9370 2460 9370 2650
+Wire Wire Line
+	10770 2460 10770 2650
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW34
+U 1 1 5E240A96
+P 1960 3490
+F 0 "SW34" H 1960 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 1960 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1960 3490 60  0001 C CNN
+F 3 "" H 1960 3490 60  0000 C CNN
+	1    1960 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 5E240A9C
+P 1660 3660
+F 0 "D33" V 1706 3592 50  0000 R CNN
+F 1 "D_Small" V 1615 3592 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 1660 3660 50  0001 C CNN
+F 3 "~" V 1660 3660 50  0001 C CNN
+	1    1660 3660
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1660 3490 1660 3560
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW35
+U 1 1 5E240AA3
+P 2660 3490
+F 0 "SW35" H 2660 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 2660 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2660 3490 60  0001 C CNN
+F 3 "" H 2660 3490 60  0000 C CNN
+	1    2660 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 5E240AA9
+P 2360 3780
+F 0 "D42" V 2406 3712 50  0000 R CNN
+F 1 "D_Small" V 2315 3712 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2360 3780 50  0001 C CNN
+F 3 "~" V 2360 3780 50  0001 C CNN
+	1    2360 3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW36
+U 1 1 5E240AAF
+P 3360 3490
+F 0 "SW36" H 3360 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 3360 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3360 3490 60  0001 C CNN
+F 3 "" H 3360 3490 60  0000 C CNN
+	1    3360 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 5E240AB5
+P 3060 3660
+F 0 "D34" V 3106 3592 50  0000 R CNN
+F 1 "D_Small" V 3015 3592 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3060 3660 50  0001 C CNN
+F 3 "~" V 3060 3660 50  0001 C CNN
+	1    3060 3660
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3060 3490 3060 3560
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW37
+U 1 1 5E240ABC
+P 4060 3490
+F 0 "SW37" H 4060 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 4060 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4060 3490 60  0001 C CNN
+F 3 "" H 4060 3490 60  0000 C CNN
+	1    4060 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 5E240AC2
+P 3760 3780
+F 0 "D43" V 3806 3712 50  0000 R CNN
+F 1 "D_Small" V 3715 3712 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3760 3780 50  0001 C CNN
+F 3 "~" V 3760 3780 50  0001 C CNN
+	1    3760 3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW38
+U 1 1 5E240AC8
+P 4760 3490
+F 0 "SW38" H 4760 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 4760 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4760 3490 60  0001 C CNN
+F 3 "" H 4760 3490 60  0000 C CNN
+	1    4760 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 5E240ACE
+P 4460 3660
+F 0 "D35" V 4506 3592 50  0000 R CNN
+F 1 "D_Small" V 4415 3592 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 4460 3660 50  0001 C CNN
+F 3 "~" V 4460 3660 50  0001 C CNN
+	1    4460 3660
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4460 3490 4460 3560
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW39
+U 1 1 5E240AD5
+P 5460 3490
+F 0 "SW39" H 5460 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 5460 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5460 3490 60  0001 C CNN
+F 3 "" H 5460 3490 60  0000 C CNN
+	1    5460 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D44
+U 1 1 5E240ADB
+P 5160 3780
+F 0 "D44" V 5206 3712 50  0000 R CNN
+F 1 "D_Small" V 5115 3712 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5160 3780 50  0001 C CNN
+F 3 "~" V 5160 3780 50  0001 C CNN
+	1    5160 3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW40
+U 1 1 5E240AE1
+P 6160 3490
+F 0 "SW40" H 6160 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 6160 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6160 3490 60  0001 C CNN
+F 3 "" H 6160 3490 60  0000 C CNN
+	1    6160 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 5E240AE7
+P 5860 3660
+F 0 "D36" V 5906 3592 50  0000 R CNN
+F 1 "D_Small" V 5815 3592 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5860 3660 50  0001 C CNN
+F 3 "~" V 5860 3660 50  0001 C CNN
+	1    5860 3660
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5860 3490 5860 3560
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW41
+U 1 1 5E240AEE
+P 6860 3490
+F 0 "SW41" H 6860 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 6860 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6860 3490 60  0001 C CNN
+F 3 "" H 6860 3490 60  0000 C CNN
+	1    6860 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D45
+U 1 1 5E240AF4
+P 6560 3780
+F 0 "D45" V 6606 3712 50  0000 R CNN
+F 1 "D_Small" V 6515 3712 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 6560 3780 50  0001 C CNN
+F 3 "~" V 6560 3780 50  0001 C CNN
+	1    6560 3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 5E240B02
+P 7270 3660
+F 0 "D37" V 7316 3592 50  0000 R CNN
+F 1 "D_Small" V 7225 3592 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 7270 3660 50  0001 C CNN
+F 3 "~" V 7270 3660 50  0001 C CNN
+	1    7270 3660
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW43
+U 1 1 5E240B08
+P 8270 3490
+F 0 "SW43" H 8270 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 8270 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8270 3490 60  0001 C CNN
+F 3 "" H 8270 3490 60  0000 C CNN
+	1    8270 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D46
+U 1 1 5E240B0E
+P 7970 3780
+F 0 "D46" V 8016 3712 50  0000 R CNN
+F 1 "D_Small" V 7925 3712 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 7970 3780 50  0001 C CNN
+F 3 "~" V 7970 3780 50  0001 C CNN
+	1    7970 3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW44
+U 1 1 5E240B14
+P 8970 3490
+F 0 "SW44" H 8970 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 8970 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8970 3490 60  0001 C CNN
+F 3 "" H 8970 3490 60  0000 C CNN
+	1    8970 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 5E240B1A
+P 8670 3660
+F 0 "D38" V 8716 3592 50  0000 R CNN
+F 1 "D_Small" V 8625 3592 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 8670 3660 50  0001 C CNN
+F 3 "~" V 8670 3660 50  0001 C CNN
+	1    8670 3660
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW45
+U 1 1 5E240B20
+P 9670 3490
+F 0 "SW45" H 9670 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 9670 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9670 3490 60  0001 C CNN
+F 3 "" H 9670 3490 60  0000 C CNN
+	1    9670 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D47
+U 1 1 5E240B26
+P 9370 3780
+F 0 "D47" V 9416 3712 50  0000 R CNN
+F 1 "D_Small" V 9325 3712 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 9370 3780 50  0001 C CNN
+F 3 "~" V 9370 3780 50  0001 C CNN
+	1    9370 3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW46
+U 1 1 5E240B2C
+P 10370 3490
+F 0 "SW46" H 10370 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 10370 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10370 3490 60  0001 C CNN
+F 3 "" H 10370 3490 60  0000 C CNN
+	1    10370 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 5E240B32
+P 10070 3660
+F 0 "D39" V 10116 3592 50  0000 R CNN
+F 1 "D_Small" V 10025 3592 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 10070 3660 50  0001 C CNN
+F 3 "~" V 10070 3660 50  0001 C CNN
+	1    10070 3660
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10070 3490 10070 3560
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW47
+U 1 1 5E240B39
+P 11070 3490
+F 0 "SW47" H 11070 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 11070 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11070 3490 60  0001 C CNN
+F 3 "" H 11070 3490 60  0000 C CNN
+	1    11070 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D48
+U 1 1 5E240B3F
+P 10770 3780
+F 0 "D48" V 10816 3712 50  0000 R CNN
+F 1 "D_Small" V 10725 3712 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 10770 3780 50  0001 C CNN
+F 3 "~" V 10770 3780 50  0001 C CNN
+	1    10770 3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW48
+U 1 1 5E240B45
+P 11770 3490
+F 0 "SW48" H 11770 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 11770 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11770 3490 60  0001 C CNN
+F 3 "" H 11770 3490 60  0000 C CNN
+	1    11770 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 5E240B4B
+P 11470 3660
+F 0 "D40" V 11516 3592 50  0000 R CNN
+F 1 "D_Small" V 11425 3592 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 11470 3660 50  0001 C CNN
+F 3 "~" V 11470 3660 50  0001 C CNN
+	1    11470 3660
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11470 3490 11470 3560
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW42
+U 1 1 5E240B59
+P 7570 3490
+F 0 "SW42" H 7570 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 7570 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7570 3490 60  0001 C CNN
+F 3 "" H 7570 3490 60  0000 C CNN
+	1    7570 3490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8670 3490 8670 3560
+Wire Wire Line
+	7270 3490 7270 3560
+Wire Wire Line
+	11470 3760 10070 3760
+Connection ~ 1660 3760
+Connection ~ 3060 3760
+Wire Wire Line
+	3060 3760 1660 3760
+Connection ~ 4460 3760
+Wire Wire Line
+	4460 3760 3060 3760
+Connection ~ 5860 3760
+Wire Wire Line
+	5860 3760 4460 3760
+Connection ~ 7270 3760
+Wire Wire Line
+	7270 3760 5860 3760
+Connection ~ 8670 3760
+Wire Wire Line
+	8670 3760 7270 3760
+Connection ~ 10070 3760
+Wire Wire Line
+	10070 3760 8670 3760
+Connection ~ 2360 3880
+Connection ~ 3760 3880
+Wire Wire Line
+	3760 3880 2360 3880
+Connection ~ 5160 3880
+Wire Wire Line
+	5160 3880 3760 3880
+Connection ~ 6560 3880
+Wire Wire Line
+	6560 3880 5160 3880
+Wire Wire Line
+	10770 3880 9370 3880
+Connection ~ 9370 3880
+Wire Wire Line
+	2360 3680 2360 3490
+Wire Wire Line
+	3760 3680 3760 3490
+Wire Wire Line
+	5160 3680 5160 3490
+Wire Wire Line
+	6560 3490 6560 3680
+Wire Wire Line
+	6560 3880 7970 3880
+Connection ~ 7970 3880
+Wire Wire Line
+	7970 3880 9370 3880
+Wire Wire Line
+	7970 3490 7970 3680
+Wire Wire Line
+	9370 3490 9370 3680
+Wire Wire Line
+	10770 3490 10770 3680
+$Comp
+L Device:D_Small D49
+U 1 1 5E240B8A
+P 1660 4650
+F 0 "D49" V 1706 4582 50  0000 R CNN
+F 1 "D_Small" V 1615 4582 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 1660 4650 50  0001 C CNN
+F 3 "~" V 1660 4650 50  0001 C CNN
+	1    1660 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1660 4480 1660 4550
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW51
+U 1 1 5E240B91
+P 2660 4480
+F 0 "SW51" H 2660 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 2660 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2660 4480 60  0001 C CNN
+F 3 "" H 2660 4480 60  0000 C CNN
+	1    2660 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D57
+U 1 1 5E240B97
+P 2360 4770
+F 0 "D57" V 2406 4702 50  0000 R CNN
+F 1 "D_Small" V 2315 4702 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2360 4770 50  0001 C CNN
+F 3 "~" V 2360 4770 50  0001 C CNN
+	1    2360 4770
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW52
+U 1 1 5E240B9D
+P 3360 4480
+F 0 "SW52" H 3360 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 3360 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3360 4480 60  0001 C CNN
+F 3 "" H 3360 4480 60  0000 C CNN
+	1    3360 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D50
+U 1 1 5E240BA3
+P 3060 4650
+F 0 "D50" V 3106 4582 50  0000 R CNN
+F 1 "D_Small" V 3015 4582 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3060 4650 50  0001 C CNN
+F 3 "~" V 3060 4650 50  0001 C CNN
+	1    3060 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3060 4480 3060 4550
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW53
+U 1 1 5E240BAA
+P 4060 4480
+F 0 "SW53" H 4060 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 4060 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4060 4480 60  0001 C CNN
+F 3 "" H 4060 4480 60  0000 C CNN
+	1    4060 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D58
+U 1 1 5E240BB0
+P 3760 4770
+F 0 "D58" V 3806 4702 50  0000 R CNN
+F 1 "D_Small" V 3715 4702 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3760 4770 50  0001 C CNN
+F 3 "~" V 3760 4770 50  0001 C CNN
+	1    3760 4770
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW54
+U 1 1 5E240BB6
+P 4760 4480
+F 0 "SW54" H 4760 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 4760 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4760 4480 60  0001 C CNN
+F 3 "" H 4760 4480 60  0000 C CNN
+	1    4760 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D51
+U 1 1 5E240BBC
+P 4460 4650
+F 0 "D51" V 4506 4582 50  0000 R CNN
+F 1 "D_Small" V 4415 4582 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 4460 4650 50  0001 C CNN
+F 3 "~" V 4460 4650 50  0001 C CNN
+	1    4460 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4460 4480 4460 4550
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW55
+U 1 1 5E240BC3
+P 5460 4480
+F 0 "SW55" H 5460 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 5460 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5460 4480 60  0001 C CNN
+F 3 "" H 5460 4480 60  0000 C CNN
+	1    5460 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D59
+U 1 1 5E240BC9
+P 5160 4770
+F 0 "D59" V 5206 4702 50  0000 R CNN
+F 1 "D_Small" V 5115 4702 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5160 4770 50  0001 C CNN
+F 3 "~" V 5160 4770 50  0001 C CNN
+	1    5160 4770
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW56
+U 1 1 5E240BCF
+P 6160 4480
+F 0 "SW56" H 6160 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 6160 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6160 4480 60  0001 C CNN
+F 3 "" H 6160 4480 60  0000 C CNN
+	1    6160 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D52
+U 1 1 5E240BD5
+P 5860 4650
+F 0 "D52" V 5906 4582 50  0000 R CNN
+F 1 "D_Small" V 5815 4582 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5860 4650 50  0001 C CNN
+F 3 "~" V 5860 4650 50  0001 C CNN
+	1    5860 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5860 4480 5860 4550
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW57
+U 1 1 5E240BDC
+P 6860 4480
+F 0 "SW57" H 6860 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 6860 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6860 4480 60  0001 C CNN
+F 3 "" H 6860 4480 60  0000 C CNN
+	1    6860 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D60
+U 1 1 5E240BE2
+P 6560 4770
+F 0 "D60" V 6606 4702 50  0000 R CNN
+F 1 "D_Small" V 6515 4702 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 6560 4770 50  0001 C CNN
+F 3 "~" V 6560 4770 50  0001 C CNN
+	1    6560 4770
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW58
+U 1 1 5E240BEE
+P 8270 4480
+F 0 "SW58" H 8270 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 8270 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED" H 8270 4480 60  0001 C CNN
+F 3 "" H 8270 4480 60  0000 C CNN
+	1    8270 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D61
+U 1 1 5E240BF4
+P 7970 4770
+F 0 "D61" V 8016 4702 50  0000 R CNN
+F 1 "D_Small" V 7925 4702 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 7970 4770 50  0001 C CNN
+F 3 "~" V 7970 4770 50  0001 C CNN
+	1    7970 4770
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW59
+U 1 1 5E240BFA
+P 8970 4480
+F 0 "SW59" H 8970 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 8970 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8970 4480 60  0001 C CNN
+F 3 "" H 8970 4480 60  0000 C CNN
+	1    8970 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D53
+U 1 1 5E240C00
+P 8670 4650
+F 0 "D53" V 8716 4582 50  0000 R CNN
+F 1 "D_Small" V 8625 4582 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 8670 4650 50  0001 C CNN
+F 3 "~" V 8670 4650 50  0001 C CNN
+	1    8670 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW60
+U 1 1 5E240C06
+P 9670 4480
+F 0 "SW60" H 9670 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 9670 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9670 4480 60  0001 C CNN
+F 3 "" H 9670 4480 60  0000 C CNN
+	1    9670 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D62
+U 1 1 5E240C0C
+P 9370 4770
+F 0 "D62" V 9416 4702 50  0000 R CNN
+F 1 "D_Small" V 9325 4702 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 9370 4770 50  0001 C CNN
+F 3 "~" V 9370 4770 50  0001 C CNN
+	1    9370 4770
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW61
+U 1 1 5E240C12
+P 10370 4480
+F 0 "SW61" H 10370 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 10370 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10370 4480 60  0001 C CNN
+F 3 "" H 10370 4480 60  0000 C CNN
+	1    10370 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D54
+U 1 1 5E240C18
+P 10070 4650
+F 0 "D54" V 10116 4582 50  0000 R CNN
+F 1 "D_Small" V 10025 4582 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 10070 4650 50  0001 C CNN
+F 3 "~" V 10070 4650 50  0001 C CNN
+	1    10070 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10070 4480 10070 4550
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW62
+U 1 1 5E240C1F
+P 11070 4480
+F 0 "SW62" H 11070 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 11070 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11070 4480 60  0001 C CNN
+F 3 "" H 11070 4480 60  0000 C CNN
+	1    11070 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D63
+U 1 1 5E240C25
+P 10770 4770
+F 0 "D63" V 10816 4702 50  0000 R CNN
+F 1 "D_Small" V 10725 4702 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 10770 4770 50  0001 C CNN
+F 3 "~" V 10770 4770 50  0001 C CNN
+	1    10770 4770
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW63
+U 1 1 5E240C2B
+P 11770 4480
+F 0 "SW63" H 11770 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 11770 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11770 4480 60  0001 C CNN
+F 3 "" H 11770 4480 60  0000 C CNN
+	1    11770 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D55
+U 1 1 5E240C31
+P 11470 4650
+F 0 "D55" V 11516 4582 50  0000 R CNN
+F 1 "D_Small" V 11425 4582 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 11470 4650 50  0001 C CNN
+F 3 "~" V 11470 4650 50  0001 C CNN
+	1    11470 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11470 4480 11470 4550
+Wire Wire Line
+	8670 4480 8670 4550
+Wire Wire Line
+	11470 4750 10070 4750
+Connection ~ 1660 4750
+Connection ~ 3060 4750
+Wire Wire Line
+	3060 4750 1660 4750
+Connection ~ 4460 4750
+Wire Wire Line
+	4460 4750 3060 4750
+Connection ~ 5860 4750
+Wire Wire Line
+	5860 4750 4460 4750
+Connection ~ 8670 4750
+Connection ~ 10070 4750
+Wire Wire Line
+	10070 4750 8670 4750
+Connection ~ 2360 4870
+Connection ~ 3760 4870
+Wire Wire Line
+	3760 4870 2360 4870
+Connection ~ 5160 4870
+Wire Wire Line
+	5160 4870 3760 4870
+Connection ~ 6560 4870
+Wire Wire Line
+	6560 4870 5160 4870
+Wire Wire Line
+	10770 4870 9370 4870
+Connection ~ 9370 4870
+Wire Wire Line
+	2360 4670 2360 4480
+Wire Wire Line
+	3760 4670 3760 4480
+Wire Wire Line
+	5160 4670 5160 4480
+Wire Wire Line
+	6560 4480 6560 4670
+Wire Wire Line
+	6560 4870 7970 4870
+Connection ~ 7970 4870
+Wire Wire Line
+	7970 4870 9370 4870
+Wire Wire Line
+	7970 4480 7970 4670
+Wire Wire Line
+	9370 4480 9370 4670
+Wire Wire Line
+	10770 4480 10770 4670
+Connection ~ 2260 1470
+Wire Wire Line
+	2260 2460 2260 3490
+Connection ~ 2260 3490
+Wire Wire Line
+	2260 3490 2260 4480
+Connection ~ 2960 1470
+Wire Wire Line
+	2960 2460 2960 3490
+Connection ~ 2960 3490
+Wire Wire Line
+	2960 3490 2960 4480
+Connection ~ 3660 1470
+Connection ~ 3660 3490
+Wire Wire Line
+	3660 3490 3660 2460
+Connection ~ 4360 3490
+Wire Wire Line
+	4360 3490 4360 2460
+Connection ~ 5060 1470
+Wire Wire Line
+	5060 2460 5060 3490
+Connection ~ 5060 3490
+Wire Wire Line
+	5060 3490 5060 4480
+Connection ~ 5760 1470
+Wire Wire Line
+	5760 3490 5760 2460
+Wire Wire Line
+	6460 4480 6460 3490
+Connection ~ 6460 1470
+Connection ~ 6460 3490
+Wire Wire Line
+	6460 3490 6460 2460
+Wire Wire Line
+	7160 4480 7160 3490
+Connection ~ 7160 1470
+Connection ~ 7160 3490
+Wire Wire Line
+	7160 3490 7160 2460
+Connection ~ 7870 1470
+Wire Wire Line
+	7870 3490 7870 2460
+Wire Wire Line
+	8570 4480 8570 3490
+Connection ~ 8570 1470
+Connection ~ 8570 3490
+Wire Wire Line
+	8570 3490 8570 2460
+Wire Wire Line
+	9270 4480 9270 3490
+Connection ~ 9270 1470
+Connection ~ 9270 3490
+Wire Wire Line
+	9270 3490 9270 2460
+Wire Wire Line
+	9970 4480 9970 3490
+Connection ~ 9970 1470
+Connection ~ 9970 3490
+Wire Wire Line
+	9970 3490 9970 2460
+Wire Wire Line
+	10670 4480 10670 3490
+Connection ~ 10670 1470
+Connection ~ 10670 3490
+Wire Wire Line
+	10670 3490 10670 2460
+Wire Wire Line
+	11370 4480 11370 3490
+Connection ~ 11370 1470
+Connection ~ 11370 3490
+Wire Wire Line
+	11370 3490 11370 2460
+Wire Wire Line
+	12070 4480 12070 3490
+Connection ~ 12070 1470
+Connection ~ 12070 2460
+Connection ~ 12070 3490
+Wire Wire Line
+	12070 3490 12070 2460
+Wire Wire Line
+	5860 4750 8670 4750
+Text GLabel 1570 740  1    50   Input ~ 0
+COL0
+Text GLabel 2960 740  1    50   Input ~ 0
+COL1
+Text GLabel 4360 740  1    50   Input ~ 0
+COL2
+Text GLabel 5760 740  1    50   Input ~ 0
+COL3
+Text GLabel 7160 740  1    50   Input ~ 0
+COL4
+Text GLabel 8570 740  1    50   Input ~ 0
+COL5
+Text GLabel 9970 740  1    50   Input ~ 0
+COL6
+Text GLabel 11370 740  1    50   Input ~ 0
+COL7
+Text GLabel 770  2730 0    50   Input ~ 0
+ROW2
+Text GLabel 770  2850 0    50   Input ~ 0
+ROW3
+Text GLabel 770  3760 0    50   Input ~ 0
+ROW4
+Text GLabel 770  3880 0    50   Input ~ 0
+ROW5
+Text GLabel 770  4750 0    50   Input ~ 0
+ROW6
+Text GLabel 770  4870 0    50   Input ~ 0
+ROW7
+Text GLabel 5300 7300 2    50   Input ~ 0
+ROW0
+Text GLabel 5300 7200 2    50   Input ~ 0
+ROW1
+Text GLabel 5300 7100 2    50   Input ~ 0
+ROW2
+Text GLabel 5300 7000 2    50   Input ~ 0
+ROW3
+Text GLabel 5300 6800 2    50   Input ~ 0
+ROW4
+Text GLabel 5300 6700 2    50   Input ~ 0
+ROW5
+Text GLabel 5300 6600 2    50   Input ~ 0
+ROW6
+Text GLabel 5300 6500 2    50   Input ~ 0
+ROW7
+Text GLabel 5300 6400 2    50   Input ~ 0
+COL0
+Text GLabel 5300 6300 2    50   Input ~ 0
+COL1
+Text GLabel 5300 6200 2    50   Input ~ 0
+COL2
+Text GLabel 5300 6100 2    50   Input ~ 0
+COL3
+Text GLabel 5300 6000 2    50   Input ~ 0
+COL4
+Text GLabel 5300 5900 2    50   Input ~ 0
+COL5
+Text GLabel 5300 5800 2    50   Input ~ 0
+COL6
+Text GLabel 5300 5700 2    50   Input ~ 0
+COL7
+$Comp
+L power:GND #PWR02
+U 1 1 5E3CCA98
+P 4100 7000
+F 0 "#PWR02" H 4100 6750 50  0001 C CNN
+F 1 "GND" V 4105 6872 50  0000 R CNN
+F 2 "" H 4100 7000 50  0001 C CNN
+F 3 "" H 4100 7000 50  0001 C CNN
+	1    4100 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E3CEAC0
+P 4100 7100
+F 0 "#PWR03" H 4100 6850 50  0001 C CNN
+F 1 "GND" V 4105 6972 50  0000 R CNN
+F 2 "" H 4100 7100 50  0001 C CNN
+F 3 "" H 4100 7100 50  0001 C CNN
+	1    4100 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E3CFB20
+P 4100 7200
+F 0 "#PWR04" H 4100 6950 50  0001 C CNN
+F 1 "GND" V 4105 7072 50  0000 R CNN
+F 2 "" H 4100 7200 50  0001 C CNN
+F 3 "" H 4100 7200 50  0001 C CNN
+	1    4100 7200
+	0    1    1    0   
+$EndComp
+Connection ~ 11370 2460
+Connection ~ 10670 2460
+Connection ~ 9970 2460
+Connection ~ 9270 2460
+Connection ~ 8570 2460
+Connection ~ 7870 2460
+Connection ~ 7160 2460
+Connection ~ 6460 2460
+Connection ~ 5760 2460
+Connection ~ 5060 2460
+Connection ~ 4360 2460
+Connection ~ 3660 2460
+Connection ~ 2960 2460
+Connection ~ 2260 2460
+Wire Wire Line
+	12070 2460 12070 1470
+Text GLabel 770  1860 0    50   Input ~ 0
+ROW1
+Text GLabel 770  1740 0    50   Input ~ 0
+ROW0
+Wire Wire Line
+	11370 2460 11370 1470
+Wire Wire Line
+	10670 2460 10670 1470
+Wire Wire Line
+	9970 2460 9970 1470
+Wire Wire Line
+	9270 2460 9270 1470
+Wire Wire Line
+	8570 2460 8570 1470
+Wire Wire Line
+	7870 2460 7870 1470
+Wire Wire Line
+	7160 2460 7160 1470
+Wire Wire Line
+	6460 2460 6460 1470
+Wire Wire Line
+	5760 2460 5760 1470
+Wire Wire Line
+	5060 1470 5060 2460
+Wire Wire Line
+	4360 2460 4360 1470
+Wire Wire Line
+	3660 2460 3660 1470
+Wire Wire Line
+	2960 1470 2960 2460
+Wire Wire Line
+	2260 1470 2260 2460
+Wire Wire Line
+	10770 1470 10770 1660
+Wire Wire Line
+	9370 1470 9370 1660
+Wire Wire Line
+	7970 1470 7970 1660
+Wire Wire Line
+	7970 1860 9370 1860
+Connection ~ 7970 1860
+Wire Wire Line
+	6560 1860 7970 1860
+Wire Wire Line
+	6560 1470 6560 1660
+Wire Wire Line
+	5160 1660 5160 1470
+Wire Wire Line
+	3760 1660 3760 1470
+Wire Wire Line
+	2360 1660 2360 1470
+Connection ~ 9370 1860
+Wire Wire Line
+	10770 1860 9370 1860
+Wire Wire Line
+	6560 1860 5160 1860
+Connection ~ 6560 1860
+Wire Wire Line
+	5160 1860 3760 1860
+Connection ~ 5160 1860
+Wire Wire Line
+	3760 1860 2360 1860
+Connection ~ 3760 1860
+Connection ~ 2360 1860
+Wire Wire Line
+	10070 1740 8670 1740
+Connection ~ 10070 1740
+Wire Wire Line
+	8670 1740 7270 1740
+Connection ~ 8670 1740
+Wire Wire Line
+	7270 1740 5860 1740
+Connection ~ 7270 1740
+Wire Wire Line
+	5860 1740 4460 1740
+Connection ~ 5860 1740
+Wire Wire Line
+	4460 1740 3060 1740
+Connection ~ 4460 1740
+Wire Wire Line
+	3060 1740 1660 1740
+Connection ~ 3060 1740
+Connection ~ 1660 1740
+Wire Wire Line
+	11470 1740 10070 1740
+Wire Wire Line
+	7270 1470 7270 1540
+Wire Wire Line
+	8670 1470 8670 1540
+Wire Wire Line
+	11470 1470 11470 1540
+$Comp
+L Device:D_Small D8
+U 1 1 5DDED381
+P 11470 1640
+F 0 "D8" V 11516 1572 50  0000 R CNN
+F 1 "D_Small" V 11425 1572 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 11470 1640 50  0001 C CNN
+F 3 "~" V 11470 1640 50  0001 C CNN
+	1    11470 1640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5DDED374
+P 10770 1760
+F 0 "D16" V 10816 1692 50  0000 R CNN
+F 1 "D_Small" V 10725 1692 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 10770 1760 50  0001 C CNN
+F 3 "~" V 10770 1760 50  0001 C CNN
+	1    10770 1760
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10070 1470 10070 1540
+$Comp
+L Device:D_Small D7
+U 1 1 5DDED367
+P 10070 1640
+F 0 "D7" V 10116 1572 50  0000 R CNN
+F 1 "D_Small" V 10025 1572 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 10070 1640 50  0001 C CNN
+F 3 "~" V 10070 1640 50  0001 C CNN
+	1    10070 1640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5DDED35A
+P 9370 1760
+F 0 "D15" V 9416 1692 50  0000 R CNN
+F 1 "D_Small" V 9325 1692 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 9370 1760 50  0001 C CNN
+F 3 "~" V 9370 1760 50  0001 C CNN
+	1    9370 1760
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5DDED34D
+P 8670 1640
+F 0 "D6" V 8716 1572 50  0000 R CNN
+F 1 "D_Small" V 8625 1572 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 8670 1640 50  0001 C CNN
+F 3 "~" V 8670 1640 50  0001 C CNN
+	1    8670 1640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5DDED340
+P 7970 1760
+F 0 "D14" V 8016 1692 50  0000 R CNN
+F 1 "D_Small" V 7925 1692 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 7970 1760 50  0001 C CNN
+F 3 "~" V 7970 1760 50  0001 C CNN
+	1    7970 1760
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5DDED333
+P 7270 1640
+F 0 "D5" V 7316 1572 50  0000 R CNN
+F 1 "D_Small" V 7225 1572 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 7270 1640 50  0001 C CNN
+F 3 "~" V 7270 1640 50  0001 C CNN
+	1    7270 1640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5DD257F8
+P 6560 1760
+F 0 "D13" V 6606 1692 50  0000 R CNN
+F 1 "D_Small" V 6515 1692 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 6560 1760 50  0001 C CNN
+F 3 "~" V 6560 1760 50  0001 C CNN
+	1    6560 1760
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5860 1470 5860 1540
+$Comp
+L Device:D_Small D4
+U 1 1 5DD257C4
+P 5860 1640
+F 0 "D4" V 5906 1572 50  0000 R CNN
+F 1 "D_Small" V 5815 1572 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5860 1640 50  0001 C CNN
+F 3 "~" V 5860 1640 50  0001 C CNN
+	1    5860 1640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5DD25790
+P 5160 1760
+F 0 "D12" V 5206 1692 50  0000 R CNN
+F 1 "D_Small" V 5115 1692 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5160 1760 50  0001 C CNN
+F 3 "~" V 5160 1760 50  0001 C CNN
+	1    5160 1760
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4460 1470 4460 1540
+$Comp
+L Device:D_Small D3
+U 1 1 5DD2575C
+P 4460 1640
+F 0 "D3" V 4506 1572 50  0000 R CNN
+F 1 "D_Small" V 4415 1572 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 4460 1640 50  0001 C CNN
+F 3 "~" V 4460 1640 50  0001 C CNN
+	1    4460 1640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5DD0654A
+P 3760 1760
+F 0 "D11" V 3806 1692 50  0000 R CNN
+F 1 "D_Small" V 3715 1692 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3760 1760 50  0001 C CNN
+F 3 "~" V 3760 1760 50  0001 C CNN
+	1    3760 1760
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3060 1470 3060 1540
+$Comp
+L Device:D_Small D2
+U 1 1 5DD06516
+P 3060 1640
+F 0 "D2" V 3106 1572 50  0000 R CNN
+F 1 "D_Small" V 3015 1572 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 3060 1640 50  0001 C CNN
+F 3 "~" V 3060 1640 50  0001 C CNN
+	1    3060 1640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 5DD0014C
+P 2360 1760
+F 0 "D10" V 2406 1692 50  0000 R CNN
+F 1 "D_Small" V 2315 1692 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 2360 1760 50  0001 C CNN
+F 3 "~" V 2360 1760 50  0001 C CNN
+	1    2360 1760
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1660 1470 1660 1540
+$Comp
+L Device:D_Small D1
+U 1 1 5DCF388D
+P 1660 1640
+F 0 "D1" V 1706 1572 50  0000 R CNN
+F 1 "D_Small" V 1615 1572 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 1660 1640 50  0001 C CNN
+F 3 "~" V 1660 1640 50  0001 C CNN
+	1    1660 1640
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5760 3490 5760 4480
+Connection ~ 5760 3490
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW50
+U 1 1 5E240B84
+P 1960 4480
+F 0 "SW50" H 1960 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 1960 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1960 4480 60  0001 C CNN
+F 3 "" H 1960 4480 60  0000 C CNN
+	1    1960 4480
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3660 4480 3660 3490
+Wire Wire Line
+	4360 4480 4360 3490
+Connection ~ 4360 1470
+Wire Wire Line
+	4360 1470 4360 950 
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW1
+U 1 1 5DBE6BBC
+P 1270 1470
+F 0 "SW1" H 1270 1725 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 1270 1634 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1270 1470 60  0001 C CNN
+F 3 "" H 1270 1470 60  0000 C CNN
+	1    1270 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW17
+U 1 1 5DBE6BC2
+P 1270 2460
+F 0 "SW17" H 1270 2715 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 1270 2624 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1270 2460 60  0001 C CNN
+F 3 "" H 1270 2460 60  0000 C CNN
+	1    1270 2460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 5DBE6BC8
+P 970 2750
+F 0 "D25" V 1016 2682 50  0000 R CNN
+F 1 "D_Small" V 925 2682 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 970 2750 50  0001 C CNN
+F 3 "~" V 970 2750 50  0001 C CNN
+	1    970  2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW33
+U 1 1 5DBE6BD0
+P 1270 3490
+F 0 "SW33" H 1270 3745 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 1270 3654 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1270 3490 60  0001 C CNN
+F 3 "" H 1270 3490 60  0000 C CNN
+	1    1270 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 5DBE6BD6
+P 970 3780
+F 0 "D41" V 1016 3712 50  0000 R CNN
+F 1 "D_Small" V 925 3712 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 970 3780 50  0001 C CNN
+F 3 "~" V 970 3780 50  0001 C CNN
+	1    970  3780
+	0    -1   -1   0   
+$EndComp
+$Comp
+L generic_kbd-cache:SWITCH_PUSH SW49
+U 1 1 5DBE6BDE
+P 1270 4480
+F 0 "SW49" H 1270 4735 50  0000 C CNN
+F 1 "SWITCH_PUSH" H 1270 4644 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1270 4480 60  0001 C CNN
+F 3 "" H 1270 4480 60  0000 C CNN
+	1    1270 4480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D56
+U 1 1 5DBE6BE4
+P 970 4770
+F 0 "D56" V 1016 4702 50  0000 R CNN
+F 1 "D_Small" V 925 4702 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 970 4770 50  0001 C CNN
+F 3 "~" V 970 4770 50  0001 C CNN
+	1    970  4770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1570 4480 1570 3490
+Connection ~ 1570 2460
+Connection ~ 1570 3490
+Wire Wire Line
+	1570 3490 1570 2460
+Wire Wire Line
+	1570 2460 1570 1470
+$Comp
+L Device:D_Small D9
+U 1 1 5DBE6BF6
+P 970 1760
+F 0 "D9" V 1016 1692 50  0000 R CNN
+F 1 "D_Small" V 925 1692 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 970 1760 50  0001 C CNN
+F 3 "~" V 970 1760 50  0001 C CNN
+	1    970  1760
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	970  4670 970  4480
+Wire Wire Line
+	970  3680 970  3490
+Wire Wire Line
+	970  2650 970  2460
+Wire Wire Line
+	970  1660 970  1470
+Connection ~ 1570 1470
+Wire Wire Line
+	1570 740  1570 940 
+Wire Wire Line
+	2260 940  1570 940 
+Wire Wire Line
+	2260 940  2260 1470
+Connection ~ 1570 940 
+Wire Wire Line
+	1570 940  1570 1470
+Wire Wire Line
+	2960 950  3660 950 
+Wire Wire Line
+	3660 950  3660 1470
+Wire Wire Line
+	4360 950  5060 950 
+Wire Wire Line
+	5060 950  5060 1470
+Wire Wire Line
+	5760 950  6460 950 
+Wire Wire Line
+	6460 950  6460 1470
+Wire Wire Line
+	7160 950  7870 950 
+Wire Wire Line
+	7870 950  7870 1470
+Wire Wire Line
+	8570 950  9270 950 
+Wire Wire Line
+	9270 950  9270 1470
+Wire Wire Line
+	9970 950  10670 950 
+Wire Wire Line
+	10670 950  10670 1470
+Wire Wire Line
+	11370 950  12070 950 
+Wire Wire Line
+	12070 950  12070 1470
+Wire Wire Line
+	11370 740  11370 950 
+Connection ~ 11370 950 
+Wire Wire Line
+	9970 740  9970 950 
+Connection ~ 9970 950 
+Wire Wire Line
+	8570 740  8570 950 
+Connection ~ 8570 950 
+Wire Wire Line
+	7160 740  7160 950 
+Connection ~ 7160 950 
+Wire Wire Line
+	5760 740  5760 950 
+Connection ~ 5760 950 
+Wire Wire Line
+	4360 740  4360 950 
+Connection ~ 4360 950 
+Wire Wire Line
+	2960 740  2960 950 
+Connection ~ 2960 950 
+Wire Wire Line
+	970  1860 2360 1860
+Wire Wire Line
+	970  2850 2360 2850
+Wire Wire Line
+	970  3880 2360 3880
+Wire Wire Line
+	970  4870 2360 4870
+Wire Wire Line
+	970  4870 770  4870
+Connection ~ 970  4870
+Wire Wire Line
+	770  4750 1660 4750
+Wire Wire Line
+	970  3880 770  3880
+Connection ~ 970  3880
+Wire Wire Line
+	770  3760 1660 3760
+Wire Wire Line
+	770  2850 970  2850
+Connection ~ 970  2850
+Wire Wire Line
+	770  2730 1660 2730
+Wire Wire Line
+	770  1860 970  1860
+Connection ~ 970  1860
+Wire Wire Line
+	770  1740 1660 1740
+$Comp
+L power:VCC #PWR01
+U 1 1 5E3D03D0
+P 4100 6300
+F 0 "#PWR01" H 4100 6150 50  0001 C CNN
+F 1 "VCC" V 4118 6427 50  0000 L CNN
+F 2 "" H 4100 6300 50  0001 C CNN
+F 3 "" H 4100 6300 50  0001 C CNN
+	1    4100 6300
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
